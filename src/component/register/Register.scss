@@ -1,0 +1,206 @@
+.register-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #7f9ef3;
+
+    .register-body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .register-content {
+            width: 400px;
+            height: 670px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+
+            .register-title {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+
+            .register-input {
+                height: 350px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+
+                .input-base {
+                    width: 100%;
+                    border: 1px solid #dbdbdb;
+                    height: 35px;
+                    border-radius: 5px;
+                    padding: 0 5px;
+                    font-size: 15px;
+                    font-style: inherit;
+                }
+
+                .input-and-icon {
+                    width: 100%;
+                    position: relative;
+
+                    .component-error-text {
+                        color: red;
+                    }
+
+                    .input-base-password {
+                        width: 100%;
+                        height: 100%;
+                        border: 1px solid #dbdbdb;
+                        height: 35px;
+                        border-radius: 5px;
+                        padding: 0 5px;
+                        font-size: 15px;
+                        font-style: inherit;
+
+
+                    }
+
+                    .icon-password {
+                        position: absolute;
+                        right: 5px;
+                        top: 5px;
+                        color: gray;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .component-error-text {
+                    color: red;
+                }
+
+            }
+
+            .register-btn {
+                margin-top: 20px;
+
+                .btn-register {
+                    width: 100%;
+                    background-color: #0171d3;
+                }
+            }
+
+            .register-signup {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .text-title-signup {
+                    font-size: 15px;
+                    font-style: inherit;
+                    font-weight: 500;
+
+                    .text-signup {
+                        color: #67a3e0;
+                        font-style: inherit;
+                        font-weight: 600;
+
+                        &:hover {
+                            cursor: pointer;
+                            color: #67a3e0;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            .text-or {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #e7e7e7;
+
+                .text-or-parent {
+                    width: 100%;
+                    text-align: center;
+                    border-bottom: 1px solid #e7e7e7;
+                    line-height: 0.1em;
+                    margin: 10px 0 20px;
+
+                    .text-or-child {
+                        background: #fff;
+                        padding: 0 10px;
+                    }
+                }
+            }
+
+            .register-network {
+                margin: 20px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                height: 90px;
+
+
+                .btn-register-facebook {
+                    width: 100%;
+                    background-color: #ffffff;
+
+                    position: relative;
+
+                    .logo-facebook {
+                        top: 5px;
+                        bottom: 5px;
+                        left: 5px;
+                        width: 40px;
+                        position: absolute;
+                        background-image: url('../../assest/img/facebook.png');
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+
+                    .text-facebook {
+                        font-size: 15px;
+                        font-style: inherit;
+                        font-weight: 500;
+                        text-transform: none;
+                        color: #aaacb1;
+                    }
+                }
+
+                .btn-register-google {
+                    width: 100%;
+                    background-color: #ffffff;
+                    position: relative;
+
+                    .logo-google {
+                        top: 5px;
+                        bottom: 5px;
+                        left: 5px;
+                        position: absolute;
+                        width: 40px;
+                        background-image: url('../../assest/img/google.png');
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+
+                    .text-google {
+                        font-size: 15px;
+                        font-style: inherit;
+                        font-weight: 500;
+                        text-transform: none;
+                        color: #aaacb1;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+
+}
